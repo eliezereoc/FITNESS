@@ -5,6 +5,6 @@ Site Fitness - Desafio modulo 1
 
 - HTML 5  
 - BootStrap V5.1  
-- SASS
+- SASS 1.37.5
 
 
