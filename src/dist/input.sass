@@ -1,7 +1,8 @@
 body
-  padding-top: 3rem
-  padding-bottom: 3rem
-  color: #5a5a5a
+    padding-top: 3rem
+    padding-bottom: 3rem
+    color: #5a5a5a
+    overflow-x: hidden
 
 #navbar__img-logo
     max-width: 100px
@@ -63,13 +64,56 @@ body
     text-decoration: none 
     color: #696969
    
-.paralax
-    background-image: url("src/img/trilha.jpg")    
-    min-height: 500px 
+.parallax 
     background-attachment: fixed
-    background-position: center
-    background-repeat: no-repeat
+    min-height: 300px
     background-size: cover
-  
+    background-repeat: no-repeat
+    background-position: center center
+    transform: scale(1.05)
 
-  
+#parallax__trilha
+    background-image: url("../img/trilha.jpg") 
+    filter: brightness(60%) 
+ 
+
+#parallax__treino
+    background-image: url("../img/treino-praia.jpg") 
+    filter: brightness(60%) 
+   
+
+.parallax p
+    margin: 0
+    position: absolute
+    top: 50%
+    left: 50%
+    margin-right: -50%
+    transform: translate(-50%, -50%) 
+    color: #ffffff
+    font-size:1.5em
+    text-align: justify
+
+#container-card
+   max-width: 1148px
+   margin: 0 auto
+
+#container-card__text-card
+    text-align: center
+    margin-top: 60px 
+    margin-bottom: 20px
+    font-family: 'Arial Narrow' 
+    font-size: 2.3em
+    font-weight: normal
+
+#formulario
+   max-width: 85%
+   margin: 0 auto    
+   margin-top: 30px 
+
+#formulario p
+    text-align: center
+    // margin-bottom: 20px
+    font-family: 'Arial Narrow' 
+    font-size: 2.3em
+    font-weight: normal
+ 
