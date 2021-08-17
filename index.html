@@ -8,7 +8,7 @@
   <title>FITNESS - Seu corpo em forma</title>
 
   <link rel="stylesheet" href="src/css/bootstrap.min.css">
-  <link rel="stylesheet" href="src/dist/style.css">
+  <link href="src/dist/style.css" type="text/css" rel="stylesheet" media="screen,projection">
 </head>
 
 <body>
@@ -90,7 +90,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="container-fluid">
       <div class="container propaganda">
         <div class="row">
           <div class="col-lg-4">
@@ -115,12 +115,16 @@
           </div>
         </div>
       </div>
+    </section>
 
+    <section class="container-fluid">
       <div class="parallax " id="parallax__trilha">
-        <p>"Uma hora antes da academia: cansaço e vondade de ficar em casa.
-          Uma hora depois da academia: aquele sentimento maravilhoso de dever cumprido."</p>
+        <h5>"Uma hora antes da academia: cansaço e vondade de ficar em casa.
+          Uma hora depois da academia: aquele sentimento maravilhoso de dever cumprido."</h5>
       </div>
+    </section>
 
+    <section class="container-fluid">
       <div id="container-card">
         <p id="container-card__text-card">Conheça nossos planos</p>
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
@@ -181,14 +185,16 @@
 
         </div>
       </div>
+    </section>
 
+    <section class="container-fluid">
       <div class="parallax " id="parallax__treino">
-        <p>"Energia! Lembre dos seus objetivos e não desista: o esforço de hoje será recompensado."</p>
+        <h5>"Energia! Lembre dos seus objetivos e não desista: o esforço de hoje será recompensado."</h5>
       </div>
 
     </section>
 
-    <section id="formulario">
+    <section class="container-fluid" id="formulario">
       <div class="row">
         <p>Quer saber mais? Entre em contato</p>
         <form>
@@ -198,12 +204,14 @@
           </div>
           <div class="form-group">
             <label for="exampleInputEmail1">Email</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Seu email">
             <small id="emailHelp" class="form-text text-muted">Nunca compartilharemos seu e-mail com ningém.</small>
           </div>
           <div class="form-group form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Eu aceito receber notícias por e-mail com promoções</label>
+            <label class="form-check-label" for="exampleCheck1">Eu aceito receber notícias por e-mail com
+              promoções</label>
           </div>
           <button type="submit" class="btn btn-comum">Enviar</button>
         </form>
@@ -212,12 +220,13 @@
 
   </main>
 
-
-
-
-  <footer>
-
+  <footer class="page-footer font-small pt-4 fixed-bottom" id="footer">
+    <div id="foot__copyrights">
+      <p>Fitness &copy; 2021 - Todos os direitos reservados</p>
+    </div>
   </footer>
+
+
 
   <script src="src/js/bootstrap.bundle.min.js"></script>
 </body>

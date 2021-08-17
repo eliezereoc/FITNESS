@@ -20,14 +20,15 @@ body {
 
 .carousel-item {
   height: 48rem;
+  background-color: black;
 }
 
 .carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
-  filter: brightness(60%);
+  min-width: auto;
+  opacity: 0.5;
 }
 
 .btn-comum {
@@ -84,19 +85,19 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   transform: scale(1.05);
+  background-color: #000;
+  opacity: 0.5;
 }
 
 #parallax__trilha {
   background-image: url("../img/trilha.jpg");
-  filter: brightness(60%);
 }
 
 #parallax__treino {
   background-image: url("../img/treino-praia.jpg");
-  filter: brightness(60%);
 }
 
-.parallax p {
+.parallax h5 {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -126,6 +127,7 @@ body {
   max-width: 85%;
   margin: 0 auto;
   margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 #formulario p {
@@ -133,6 +135,16 @@ body {
   font-family: "Arial Narrow";
   font-size: 2.3em;
   font-weight: normal;
+}
+
+footer {
+  background-color: #3e3e3e;
+  color: lightgrey;
+  padding: 10px 50px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
